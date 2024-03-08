@@ -19,4 +19,4 @@ if (userRandomNumber > cpuRandomNumber) {
 
 // output all'utente
 console.log(message);
-alert(message);
+alert(message + (' (punteggio player: ' + userRandomNumber + ';') + (' punteggio cpu: ' + cpuRandomNumber + ')'));
