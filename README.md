@@ -9,5 +9,6 @@
 ---
 
 Preview at: 
-- 🎲 : https://sofiacottone.github.io/js-mail-dadi/dadi/index.html
-- 📧 : https://sofiacottone.github.io/js-mail-dadi/mail/index.html
+- 🎲 js logic : https://sofiacottone.github.io/js-mail-dadi/dadi/index.html
+- 🎲 bonus : https://sofiacottone.github.io/js-mail-dadi/dadi/bonus.html
+- 📧 js logic: https://sofiacottone.github.io/js-mail-dadi/mail/index.html
