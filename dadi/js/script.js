@@ -11,12 +11,14 @@ console.log('cpu', cpuRandomNumber);
 
 // confronto i due numeri e stabilisco chi ha vinto in base a chi ha fatto il punteggio più alto
 let message;
-if (userRandomNumber > cpuRandomNumber) {
-    message = 'hai vinto!'
+if (userRandomNumber === cpuRandomNumber) {
+    message = 'Pareggio!'
+} else if (userRandomNumber > cpuRandomNumber) {
+    message = 'Hai vinto!'
 } else {
-    message = 'hai perso!'
+    message = 'Hai perso!'
 }
 
 // output all'utente
-console.log(message);
-alert(message + (' (punteggio player: ' + userRandomNumber + ';') + (' punteggio cpu: ' + cpuRandomNumber + ')'));
+console.log('result:', message);
+alert(message + (' (Punteggio player: ' + userRandomNumber + ';') + (' Punteggio cpu: ' + cpuRandomNumber + ')'));
